@@ -1,5 +1,5 @@
 {
-  "name": "ta-te-ti",
+  "name": "express-games",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,14 +8,22 @@
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-grid-system": "^7.1.2",
+    "react-responsive": "^8.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
+    "web-vitals": "^1.1.1",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "@babel/register": "^7.7.0",
+    "express": "^4.17.1",
+    "ignore-styles": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "ssr": "node server/index.js"
   },
   "eslintConfig": {
     "extends": [
